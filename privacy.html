@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ファイル共有と同期 プライバシーポリシー</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --line: #3d444d; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+         line-height: 1.8; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  a { color: #0969da; }
+  @media (prefers-color-scheme: dark) { a { color: #4493f8; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>ファイル共有と同期 プライバシーポリシー</h1>
+  <p class="date">制定日: 2026年10月28日</p>
+
+  <p>「ファイル共有と同期」は、下に挙げる個人用のアプリ(以下「本アプリ」)が、利用者自身のGoogleドライブを使って
+  端末どうしでデータを受け渡したり、仲間とファイルを共有したりするためのGoogleログインです。
+  本アプリが扱う情報と、その扱い方を次のとおり定めます。</p>
+
+  <h2>対象のアプリとGoogleドライブで扱うもの</h2>
+  <table>
+    <tr><th>アプリ</th><th>Googleドライブで読み書きするもの</th></tr>
+    <tr><td>ToDoボード<br>(Windows版・Android版)</td>
+        <td>マイドライブの「ToDoボード同期」フォルダにある同期用ファイルと添付ファイルの写し。</td></tr>
+    <tr><td>PDF Tools<br>(Windows版)</td>
+        <td>マイドライブの「PDF Tools 共有プロジェクト」フォルダに作った共有プロジェクト(.pdftools)と、
+        ほかの利用者から共有された共有プロジェクト。共有するときは、利用者が入力した相手のメールアドレスへ、
+        そのファイルの編集権限を与えます(Googleから相手へ知らせのメールが届きます)。</td></tr>
+    <tr><td>現地プロット<br>(Android版・Windows版)</td>
+        <td>マイドライブの「現地プロット同期」フォルダにある現場ごとの同期用ファイルと写真・図面の写し。</td></tr>
+  </table>
+  <p>本アプリは、上に挙げたもの以外のファイルを読んだり、変更したり、削除したりしません。</p>
+  <p>ドライブ全体への権限を求めるのは、Google Drive for desktop で作られた同期フォルダや、
+  ほかの利用者から共有されたファイルを、本アプリから開けるようにするためです。</p>
+
+  <h2>扱う情報</h2>
+  <p>本アプリが扱うのは、利用者が本アプリに入力した内容(カード・現場・書き込みなど)と、
+  共有の相手として利用者が入力したメールアドレス、ログインしたGoogleアカウントのメールアドレス(画面に表示するため)だけです。
+  これらは利用者の端末と、利用者自身のGoogleドライブに保存されます。</p>
+
+  <h2>外部への送信</h2>
+  <p>本アプリは、利用者のデータを開発者のサーバーやその他の第三者へ送信しません。広告や利用状況の分析も行いません。
+  データが端末の外へ出るのは、利用者自身のGoogleドライブとのやり取りと、利用者が共有を指示した相手への共有だけです。</p>
+
+  <h2>Google API サービスのユーザーデータに関するポリシー</h2>
+  <p>本アプリがGoogle APIから受け取った情報の使用および他のアプリへの転送は、
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>(Limited Use の要件を含む)に従います。</p>
+
+  <h2>権限の取り消しとデータの削除</h2>
+  <p>本アプリへのGoogleドライブの権限は、<a href="https://myaccount.google.com/permissions">Googleアカウントのサードパーティ アクセス</a>からいつでも取り消せます。
+  端末内のデータは本アプリを削除すると消えます。Googleドライブ上のデータは、上の表のフォルダやファイルを削除すると消えます。
+  共有したファイルは、Googleドライブで共有を外すと相手から見えなくなります。</p>
+
+  <h2>改定</h2>
+  <p>このポリシーを変更するときは、このページを更新します。</p>
+
+  <h2>お問い合わせ</h2>
+  <p><a href="https://github.com/Kishiro-lab/file-share-sync/issues">GitHubのIssue</a>からお寄せください。</p>
+</main>
+</body>
+</html>
